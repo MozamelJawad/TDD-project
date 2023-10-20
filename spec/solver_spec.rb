@@ -1,4 +1,4 @@
-require_relative 'solver'
+require_relative '../solver'
 
 describe 'During testing "Solver" class' do
 
@@ -20,6 +20,15 @@ describe 'During testing "Solver" class' do
 
     it 'raises an exception for negative integers' do
       expect { @solver.factorial(-5) }.to raise_error(ArgumentError)
+    end
+  end
+
+   # test for reverse method
+   describe 'When tesint "reverse" method ' do
+    it 'returns the reversed word' do
+      expect(@solver.reverse('hello')).to eql('olleh')
+      expect(@solver.reverse('world')).to eql('dlrow')
+      expect(@solver.reverse('ruby')).to eql('ybur')
     end
   end
 end
