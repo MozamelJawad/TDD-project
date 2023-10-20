@@ -63,8 +63,8 @@ git clone https://github.com/MozamelJawad/TDD-project.git
 
 Install this project with:
 
-git clone https://github.com/MozamelJawad/TDD-project.git
-cd TDD-project
+- git clone https://github.com/MozamelJawad/TDD-project.git
+- cd TDD-project
 
 ### Usage
 
@@ -75,6 +75,8 @@ To run the project, execute the following command:
 ### Deployment
 
 You can deploy this project using:
+- ruby solver.rb
+- rspec spec
 
 <!--
 Example:
@@ -103,6 +105,7 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - Add the console menu
+- add more tests
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +115,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/MozamelJawad/TDD-project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,7 +130,7 @@ If you like this project give it a star!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my coding partner.
+I would like to thank my coding partner and Microverse team
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
