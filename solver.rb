@@ -19,6 +19,14 @@ def fizzbuzz(number)
   end
 end
 
+# method running example
+solver = Solver.new
+puts solver.factorial(6)
+puts solver.reverse('hello')
+puts solver.fizzbuzz(15)
+puts solver.fizzbuzz(7)
+puts solver.fizzbuzz(10)
+
 
 
 
