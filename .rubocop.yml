@@ -16,12 +16,15 @@ Metrics/AbcSize:
 Metrics/ClassLength:
   Max: 150
 Metrics/BlockLength:
-  IgnoredMethods: ['describe']
+  AllowedMethods: ['describe']
   Max: 30
-
+Metrics/CyclomaticComplexity:
+  Enabled: false
+Metrics/PerceivedComplexity:    
+  Enabled: false
 
 Style/Documentation:
-  Enabled: false
+  Enabled: false  
 Style/ClassAndModuleChildren:
   Enabled: false
 Style/EachForSimpleLoop:
@@ -30,6 +33,8 @@ Style/AndOr:
   Enabled: false
 Style/DefWithParentheses:
   Enabled: false
+Style/OptionalBooleanParameter:
+  Enabled: false 
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
 
