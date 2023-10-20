@@ -22,7 +22,6 @@ describe 'During testing "Solver" class' do
       expect { @solver.factorial(-5) }.to raise_error(ArgumentError)
     end
   end
-
    # test for reverse method
    describe 'When tesint "reverse" method ' do
     it 'returns the reversed word' do
