@@ -31,4 +31,27 @@ describe 'During testing "Solver" class' do
       expect(@solver.reverse('ruby')).to eql('ybur')
     end
   end
+
+  # test for fizzbuzz method
+  describe 'When testing "fizzbuzz" method ' do
+    it 'returns "fizz" when divisible by 3' do
+      expect(@solver.fizzbuzz(3)).to eql('fizz')
+      expect(@solver.fizzbuzz(9)).to eql('fizz')
+    end
+
+    it 'returns "buzz" when divisible by 5' do
+      expect(@solver.fizzbuzz(5)).to eql('buzz')
+      expect(@solver.fizzbuzz(20)).to eql('buzz')
+    end
+
+    it 'returns "fizzbuzz" when divisible by both 3 and 5' do
+      expect(@solver.fizzbuzz(15)).to eql('fizzbuzz')
+      expect(@solver.fizzbuzz(30)).to eql('fizzbuzz')
+    end
+
+    it 'returns the number as a string for other cases' do
+      expect(@solver.fizzbuzz(11)).to eql('11')
+      expect(@solver.fizzbuzz(13)).to eql('13')
+    end
+  end
 end
