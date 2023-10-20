@@ -22,7 +22,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [School Library] <a name="about-project"></a>
+# 📖 [TDD-project] <a name="about-project"></a>
 
 > In this project we implement a Solver class with some methods (factorial, reverse and fizzbuzz), by doing test-driven development (TDD). Remember that we write tests first and then the code. 
 
@@ -36,7 +36,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Associations Implementation**
+- **test-driven development (TDD)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
